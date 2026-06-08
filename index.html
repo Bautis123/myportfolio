@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bautis - Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="Innovations Ltd.png">
+<link rel="apple-touch-icon" href="Innovations Ltd.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<portfolio-nav></portfolio-nav>
+
+<main>
+  <hero-section></hero-section>
+
+<hr class="full-divider">
+
+<div class="section" id="about">
+  <div class="section-label">About</div>
+  <about-section></about-section>
+</div>
+
+<hr class="full-divider">
+
+<div class="section" id="skills">
+  <div class="section-label">Skills &amp; Stack</div>
+  <skills-grid class="reveal"></skills-grid>
+</div>
+
+<hr class="full-divider">
+
+<div class="section" id="projects">
+  <div class="section-label">Projects</div>
+  <projects-grid></projects-grid>
+</div>
+
+<hr class="full-divider">
+
+<div class="section" id="contact">
+  <div class="section-label">Contact</div>
+  <contact-section></contact-section>
+</div>
+</main>
+
+<portfolio-footer></portfolio-footer>
+
+<script type="module" src="components/index.js"></script>
+</body>
+</html>
