@@ -1,54 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bautis - Full-Stack Developer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="icon" type="image/png" href="Innovations Ltd.png">
-<link rel="apple-touch-icon" href="Innovations Ltd.png">
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Bautis Chileshe — software engineer and developer building full-stack, IoT, SaaS and business systems.">
+    <title>Bautis Chileshe — Software Engineer &amp; Developer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23153e75'/%3E%3Cpath d='M18 15h16c9 0 14 4 14 11 0 4-2 7-6 9 5 1 8 5 8 11 0 8-6 12-16 12H18V15zm10 9v8h6c3 0 5-1 5-4s-2-4-5-4h-6zm0 17v8h7c4 0 6-1 6-4 0-3-2-4-6-4h-7z' fill='%23ffffff'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#top">Skip to content</a>
 
-<portfolio-nav></portfolio-nav>
+    <!-- Navigation -->
+    <header>
+      <nav class="wrap">
+        <a class="mark" href="#top"><i>B</i> Bautis Chileshe</a>
+        <div class="navlinks">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
 
-<main>
-  <hero-section></hero-section>
+    <!-- Main content -->
+    <main id="top">
+      <div class="hero wrap">
+        <div>
+          <div class="eyebrow">Software Engineer &amp; Developer</div>
+          <h1>I build systems <span>that work.</span></h1>
+          <p class="intro">I’m Bautis Chileshe, a software engineer and developer building full-stack platforms, connected systems, and practical software for real business needs.</p>
+          <a class="scroll" href="#work"><b>↓</b> Explore my projects</a>
+        </div>
+        <div class="portrait-wrap">
+          <div class="portrait-frame">
+            <img src="bautis-chileshe.jpg" alt="Bautis Chileshe wearing a white shirt and tie" fetchpriority="high" decoding="async">
+          </div>
+          <div class="portrait-tag">Based in Zambia · Building for the web & beyond</div>
+        </div>
+      </div>
 
-<hr class="full-divider">
+      <!-- Selected work -->
+      <section id="work">
+        <div class="wrap">
+          <div class="section-head">
+            <small>Selected work / 06</small>
+            <h2>From full-stack platforms to connected hardware.</h2>
+          </div>
+          <div class="featured-grid">
+            <article class="feature dark">
+              <div class="orb"></div>
+              <div>
+                <div class="feature-no">01 / Flagship full-stack project</div>
+                <h3>StudentHome</h3>
+                <p>A business-ready student platform combining secure authentication, payments, database workflows, and cloud services in one complete product.</p>
+              </div>
+              <div class="tags"><span>Full-stack</span><span>Authentication</span><span>Payments</span><span>Cloud</span></div>
+            </article>
+            <article class="feature blue">
+              <div class="orb"></div>
+              <div>
+                <div class="feature-no">02 / Flagship IoT project</div>
+                <h3>InteliBin</h3>
+                <p>A smart waste management system that connects sensors, microcontrollers, automation, and software to improve how waste collection is monitored and managed.</p>
+              </div>
+              <div class="tags"><span>IoT</span><span>Arduino / ESP32</span><span>Sensors</span><span>Automation</span></div>
+            </article>
+          </div>
+          <div class="project-grid">
+            <article class="card">
+              <div class="card-num">03</div>
+              <div>
+                <h3>Academic Excellence Materials</h3>
+                <p>A deployed learning platform with protected access, user authentication, payment flows, and full-stack content delivery.</p>
+                <div class="tags"><span>Full-stack</span><span>Access Control</span><span>Payments</span></div>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-num">04</div>
+              <div>
+                <h3>BACMA Lending System</h3>
+                <p>A SaaS lending platform shaped around database design, business rules, APIs, and reliable loan-management workflows.</p>
+                <div class="tags"><span>SaaS</span><span>APIs</span><span>Database Design</span></div>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-num">05</div>
+              <div>
+                <h3>POS System — Bautis</h3>
+                <p>A PHP and SQL point-of-sale system with role-based access, inventory management, and practical retail business logic.</p>
+                <div class="tags"><span>PHP</span><span>SQL</span><span>Inventory</span><span>Roles</span></div>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-num">06</div>
+              <div>
+                <h3>Mood Journal</h3>
+                <p>A simple, personal mood diary designed to make daily emotional tracking clear, approachable, and consistent.</p>
+                <div class="tags"><span>Personal Tool</span><span>Daily Tracking</span><span>UX</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-<div class="section" id="about">
-  <div class="section-label">About</div>
-  <about-section></about-section>
-</div>
+      <!-- About -->
+      <section id="about">
+        <div class="wrap">
+          <div class="section-head">
+            <small>About</small>
+            <h2>Practical thinking, translated into software.</h2>
+          </div>
+          <div class="about-grid">
+            <p class="about-copy">I work across web platforms, databases, business systems, and connected hardware. I care about building technology that is <strong>clear, purposeful, and dependable.</strong></p>
+            <ol class="principles">
+              <li><b>01</b><span>Start with the real problem</span></li>
+              <li><b>02</b><span>Design the system clearly</span></li>
+              <li><b>03</b><span>Build for useful outcomes</span></li>
+            </ol>
+          </div>
+        </div>
+      </section>
 
-<hr class="full-divider">
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="wrap">
+          <div class="section-head">
+            <small>Contact</small>
+            <h2>Let’s build something useful.</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:chileshebautis@gmail.com"><span>Email</span><span>↗</span></a>
+            <a href="https://github.com/bautis123" aria-label="Bautis Chileshe on GitHub"><span>GitHub</span><span>↗</span></a>
+            <a href="https://www.linkedin.com/in/bautis-chileshe-a2bb2432b" aria-label="Bautis Chileshe on LinkedIn"><span>LinkedIn</span><span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
 
-<div class="section" id="skills">
-  <div class="section-label">Skills &amp; Stack</div>
-  <skills-grid class="reveal"></skills-grid>
-</div>
-
-<hr class="full-divider">
-
-<div class="section" id="projects">
-  <div class="section-label">Projects</div>
-  <projects-grid></projects-grid>
-</div>
-
-<hr class="full-divider">
-
-<div class="section" id="contact">
-  <div class="section-label">Contact</div>
-  <contact-section></contact-section>
-</div>
-</main>
-
-<portfolio-footer></portfolio-footer>
-
-<script type="module" src="components/index.js"></script>
-</body>
+    <!-- Footer -->
+    <footer>
+      <div class="wrap foot"><span>© 2026 Bautis Chileshe</span><span>Software Engineer &amp; Developer · Zambia</span></div>
+    </footer>
+  </body>
 </html>
