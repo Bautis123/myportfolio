@@ -892,7 +892,8 @@ footer a:focus-visible {
   .hero h1 span {
     margin-top: .08em;
     letter-spacing: -.025em;
-    -webkit-text-stroke-width: 1px;
+    color: var(--accent);
+    -webkit-text-stroke: 0;
   }
 
   .eyebrow {
