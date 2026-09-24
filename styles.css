@@ -865,32 +865,59 @@ footer a:focus-visible {
 
 @media (max-width: 800px) {
   html {
-    scroll-padding-top: 86px;
+    scroll-padding-top: 24px;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .wrap {
+    width: calc(100% - 40px);
   }
 
   .hero {
     min-height: 0;
-    gap: 42px;
-    padding-bottom: 76px;
+    gap: 32px;
+    padding: 36px 0 60px;
   }
 
   .hero h1 {
-    font-size: clamp(3.6rem, 14vw, 6rem);
+    font-size: clamp(2.75rem, 10.5vw, 4.75rem);
+    line-height: 1.02;
+    margin: 24px 0 20px;
     max-width: 650px;
   }
 
+  .hero h1 span {
+    margin-top: .08em;
+    letter-spacing: -.025em;
+    -webkit-text-stroke-width: 1px;
+  }
+
   .eyebrow {
-    font-size: .72rem;
+    font-size: .65rem;
+    letter-spacing: .035em;
+  }
+
+  .intro {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .scroll {
+    margin-top: 24px;
   }
 
   .portrait-wrap {
-    width: min(100% - 14px, 480px);
+    width: min(100% - 12px, 360px);
     justify-self: center;
-    margin-right: 14px;
+    margin-right: 12px;
   }
 
   .portrait-frame {
-    height: clamp(380px, 85vw, 540px);
+    height: auto;
+    aspect-ratio: 4 / 5;
     box-shadow: 12px 12px 0 var(--accent);
   }
 
@@ -933,7 +960,7 @@ footer a:focus-visible {
   }
 
   .hero h1 {
-    font-size: 16vw;
+    font-size: clamp(2.25rem, 10.5vw, 2.75rem);
   }
 
   .card {
